@@ -1,0 +1,12 @@
+.content{
+    background-color: #7beb5f;
+  }
+
+  .contentItem {
+      margin-left: 5px;
+      color: #01250d;
+  }
+
+  .newPost {
+      color: red;
+  }

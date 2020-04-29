@@ -1,0 +1,21 @@
+.dialogues {
+    display: grid;
+    grid-template-columns: 3fr 10fr;
+    background-color: #7beb5f;
+}
+
+.dialogueList {
+    color: #05491f;
+    padding: 10px;
+}
+
+.messages{
+    color: #05491f;
+    padding: 10px;
+}
+
+.activeLink {
+    color: #074214;
+    font-weight: 500;
+}
+
