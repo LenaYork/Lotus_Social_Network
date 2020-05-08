@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: 3fr 10fr;
     background-color: #7beb5f;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 
 .dialogueList {

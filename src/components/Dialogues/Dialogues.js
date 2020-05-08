@@ -1,30 +1,32 @@
 import React from 'react';
 import styles from './Dialogues.module.css';
-import {NavLink} from 'react-router-dom';
+import DialogueItem from './DialogueItem/DialogueItem';
+import DialogueMessage from './DialogueMessage/DialogueMessage';
+// import {NavLink} from 'react-router-dom';
 
-function DialogueItem(props) {
-    return(
-        <div className={`${styles.dialogue} ${styles.active}`}>
-            <NavLink to={'/dialogues/'+props.id} activeClassName={styles.activeLink}>{props.name}</NavLink>
-        </div>
-    )
-}
+// function DialogueItem(props) {
+//     return(
+//         <div className={`${styles.dialogue} ${styles.active}`}>
+//             <NavLink to={'/dialogues/'+props.id} activeClassName={styles.activeLink}>{props.name}</NavLink>
+//         </div>
+//     )
+// }
 
-function DialogueMessage(props) {
-    return(
-    <div className={styles.message}>{props.message}</div>
-    )   
-}
+// function DialogueMessage(props) {
+//     return(
+//     <div className={styles.message}>{props.message}</div>
+//     )   
+// }
 
 function Dialogues() {
     const dialoguesData = [
-        {id: 1, name: "Inna"},
-        {id: 2, name: "Alexandr"},
-        {id: 3, name: "Vadim"},
-        {id: 4, name: "Jack"},
-        {id: 5, name: "Alex"},
-        {id: 6, name: "Amy"},
-        {id: 7, name: "Ari"},
+        {id: 'inna', name: "Inna"},
+        {id: 'alexandr', name: "Alexandr"},
+        {id: 'vadim', name: "Vadim"},
+        {id: 'jack', name: "Jack"},
+        {id: 'alex', name: "Alex"},
+        {id: 'amy', name: "Amy"},
+        {id: 'ari', name: "Ari"},
 
     ];
 

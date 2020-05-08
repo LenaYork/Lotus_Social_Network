@@ -9,7 +9,7 @@ function ProfileInfo() {
                 <img
                     width="100%"
                     height="100%" 
-                    src={bg} /> 
+                    src={bg} alt='bg' /> 
                 </div>
             <div className={styles.contentItem}>
                 ava description

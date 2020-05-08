@@ -1,0 +1,10 @@
+.messages{
+    color: #05491f;
+    padding: 10px;
+}
+
+.activeLink {
+    color: #074214;
+    font-weight: 500;
+}
+

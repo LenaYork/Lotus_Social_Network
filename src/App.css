@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 .main {
-  background-color: #92fa78;
+  background-color: #d6fccd;
   height: 100%;
   min-height: 100vh;
 }
@@ -34,15 +36,26 @@ a:hover{
 
 .content{
   grid-area: c;
+
+  background-color: brown;
   
 }
 
 .header{
     grid-area: h;
+
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 
 
 .nav{
   grid-area: n;
   background-color: #02d461;
+
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
+
+
+

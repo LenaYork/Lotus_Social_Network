@@ -4,8 +4,10 @@
   }
   
   .navbarItem {
-    margin-left: 10px;
+    margin-left: 15px;
+    margin-top: 7px;
     color: #01450d;   
+
   }
 
   a {
